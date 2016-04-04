@@ -30,11 +30,8 @@ var aqiData = [
     }) ;
     
   for(i in aqiData){
-    //ull.innerHTML='<li>hiahia</li>';
-    //ull.innerHTML='<li>'+parseInt(aqiData[i][1])+'</li>';
     if (parseInt(aqiData[i][1])>60) {
       n++;
-      //ull.innerHTML='<li>haha</li>';
       ull.innerHTML+='<li>第'+n+'名：'+aqiData[i][0]+','+aqiData[i][1]+'</li>';
     }
   }
